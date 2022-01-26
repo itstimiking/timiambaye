@@ -9,10 +9,10 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hey there,
+          Hey Dear,
         </SectionTitle>
         <SectionText>
-          Hey there, This is Timi Ambaye. I am a front-end developer (React), a native android developer (Kotlin) and a 
+          Hey dear, This is Timi Ambaye. I am a front-end developer (React), a native android developer (Kotlin) and a 
           cross platform mobile application developer (React Native). I am a good fit for your new project.
         </SectionText>
         <Button onClick={(e) => {
