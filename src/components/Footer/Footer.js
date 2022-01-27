@@ -9,8 +9,8 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://t.me/itstimiking">Telegram</LinkItem>
+          <LinkTitle>Call:</LinkTitle>
+          <LinkItem href="tel:08064655310">08064655310</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>&copy; 2021 <Link href="https://www.timiambaye.com">  Timi Ambaye</Link> . All rights reserved.</Slogan>
+          <Slogan>&copy; 2022 <Link href="https://www.timiambaye.com">  Timi Ambaye</Link> . All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/itstimiking">
