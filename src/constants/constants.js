@@ -5,7 +5,7 @@ export const projects = [
     image: '/images/covid.jpg',
     tags: ['Kotlin', 'XML', 'Rest API'],
     source: 'https://github.com/zuri-training/bloodfinder-mobile-pjt-12',
-    visit: 'https://project.timiambaye.com/bloodfinder/',
+    visit: 'https://bloodfinder.netlify.app/',
     id: 0,
   },
   {
