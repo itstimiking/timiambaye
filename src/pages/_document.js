@@ -39,8 +39,8 @@ export default class MyDocument extends Document {
           <meta property="og:description" content="Hello there. Its Timi Ambaye I am an Android native and cross platform React and React Native developer" />
           <meta property="og:image" content="https://www.timiambaye.com/images/banner.png" />
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:title" content="Vipul Jha - Android & Flutter Dev" />
-          <meta property="twitter:description" content="Hello there, Its TImi Ambaye. I am a mobile software developer" />
+          <meta property="twitter:title" content="Timi Ambaye - Mobile software developer" />
+          <meta property="twitter:description" content="Hello there, Its Timi Ambaye. I am a mobile software developer" />
           <meta property="twitter:image" content="https://www.timiambaye.com/images/banner.png" />
         </Head>
         <body>
