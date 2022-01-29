@@ -40,8 +40,11 @@ export default class MyDocument extends Document {
           <meta property="og:title" content="React Developer, React Native and Kotlin Android developer. Timi Ambaye" />
           <meta property="og:description" content="Hello there. Its Timi Ambaye I am an Android native and cross platform React and React Native developer" />
           <meta property="og:image" content="https://www.timiambaye.com/images/banner.png" />
+          <meta property="og:url" content="https://www.timiambaye.com/" />
+          <meta property="fb:app_id" content="0.0.1" />
+          
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:title" content="React Developer, React Native and Kotlin Android developer. Timi Ambaye" />
+          <meta property="twitter:title" content="I am a fullstack developer with React and react native, Django Node.js and Flask and an android developer using kotlin" />
           <meta property="twitter:description" content="Hello there, Its Timi Ambaye. I am a mobile software developer" />
           <meta property="twitter:image" content="https://www.timiambaye.com/images/banner.png" />
         </Head>
