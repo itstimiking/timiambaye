@@ -37,8 +37,8 @@ export default class MyDocument extends Document {
           <meta name="title" content="Timi Ambaye - Mobile software developer, React, React-native, kotlin" />
           <meta name="description" content="Hello there, Its Timi Ambaye. I am a fullstack, react, react-native, and kotlin mobile developer." />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="React Developer, React Native and Kotlin Android developer. Timi Ambaye" />
-          <meta property="og:description" content="Hello there, I am a Fullstack website dev and a cross platform mobile software developer using React Native" />
+          <meta property="og:title" content="Timi Ambaye. Your fullstack website developer with React, Django and Flask. Also a React Native and Kotlin mobile developer" />
+          <meta property="og:description" content="I develop Fullstack websites with React, Django and Flask and cross platform android and iOS mobile softwares using React Native" />
           <meta property="og:image" content="https://www.timiambaye.com/images/banner.png" />
           <meta property="og:url" content="https://www.timiambaye.com/" />
           <meta property="fb:app_id" content="0.0.1" />
