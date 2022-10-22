@@ -5,9 +5,9 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { number: "3+ yrs", text: 'Mentor/Facilitator GADS' },
-  { number: "20", text: 'Frontend Devs Trained', },
-  { number: "30", text: 'Android Devs Trained', },
-  { number: 5, text: 'Live websites', }
+  { number: "25", text: 'Frontend Devs Trained', },
+  { number: "50", text: 'Android Devs Trained', },
+  { number: "10+", text: 'Live projects', }
 ];
 
 const Acomplishments = () => (

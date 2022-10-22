@@ -12,8 +12,8 @@ const Hero = (props) => (
           Hey There,
         </SectionTitle>
         <SectionText>
-          Hello!, It's Timi Ambaye. A front-end web developer (React), a native android developer (Kotlin) and a 
-          cross platform mobile application developer (React Native). I am a good fit for your new project.
+          Hello!, It's Timi Ambaye. I am a fulls-stack web developer (Django/Flask) (ruby on rails) (React) (Vue), a native android developer (Kotlin), a 
+          cross platform mobile application developer (React Native) . I am a good fit for your new project.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();

@@ -1,5 +1,5 @@
 import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit } from "react-icons/si";
+import { SiRubyonrails, SiFirebase, SiGit } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 
 export const Skills = [
@@ -16,10 +16,10 @@ export const Skills = [
     Description: () => <>I create fluent and efficient cross platform apps with react native. </>,
   },
   {
-    slug: "java",
-    Component: SiJava,
-    title: "Java",
-    Description: () => <>I code in Java. But I mainly use it for Android app development.</>,
+    slug: "Back-End",
+    Component: SiRubyonrails,
+    title: "Python/Ruby On Rails",
+    Description: () => <>I build backend micro service applications with ruby on rails, djano, flask and node.js</>,
   },
   {
     slug: "firebase",
