@@ -19,18 +19,18 @@ export const Skills = [
     slug: "Back-End",
     Component: SiRubyonrails,
     title: "Python/Ruby On Rails",
-    Description: () => <>I build backend micro service applications with ruby on rails, djano, flask and node.js</>,
+    Description: () => <>I build backend micro service applications with Ruby on Rails, Djano, Flask and node.js</>,
   },
   {
     slug: "firebase",
     Component: SiFirebase,
     title: "Firebase",
-    Description: () => <>I have used Firebase for auth, database & analytics in my apps.</>,
+    Description: () => <>I have used Firebase for auth, database & analytics in commercial applications and personal projects.</>,
   },
   {
     slug: "git",
     Component: SiGit,
     title: "Git",
-    Description: () => <>Git is a tool that I use every day. I use GitHub for pushing my code.</>,
+    Description: () => <>I am well versed in git workflow and general version control and collaboration ethics.</>,
   },
 ];
