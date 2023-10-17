@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Blood Finder App',
-    description: "Blood finder app was built during my internship with Zuri. It is supposed to enable Hospitals and Medical facilities get blood orders using drones.",
+    description: "Blood finder app was built during my internship with Zuri. It is a service that enables Hospitals and Medical facilities to source for blood and get it delivered using drones.",
     image: '/images/covid.jpg',
     tags: ['Kotlin', 'XML', 'Rest API'],
     source: 'https://github.com/zuri-training/bloodfinder-mobile-pjt-12',
