@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 
-export const Img = styled.img`
-  width:100%;
-  height:100%;
-  object-fit: cover;
-  overflow: hidden;
-`
+
 
 export const GridContainer = styled.section`
 display: grid;
@@ -23,6 +18,28 @@ row-gap: 3rem;
 }
 
 `
+
+export const DivImage = styled.div`
+  width:100%;
+  height:20rem;
+  display:flex;
+  position:relative;
+  overflow:hidden
+`
+
+export const Img = styled.img`
+  width:100%;
+  object-fit: cover;
+  position:absolute;
+  top:0;
+  transform: translate(0,0)
+  transition: transform 2s;
+
+  :hover{
+    transform: translate(0,-30%)
+  }
+`
+
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
