@@ -7,32 +7,22 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-          <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >Timi Ambaye</span>
-        </a>
+        Timi Ambaye
       </Link>
     </Div1>
     <Div2>
-      <li>
         <Link href="#projects">
-          <NavLink>Projects</NavLink>
+          Projects
         </Link>
-      </li>
-      <li>
         <Link href="#skills">
-          <NavLink>Skills</NavLink>
+          Skills
         </Link>
-      </li>
-      <li>
         <Link href="#about">
-          <NavLink>About</NavLink>
+          About
         </Link>
-      </li>
-      <li>
-        <a href="https://blog.timiambaye.com">
-          <NavLink>Blog</NavLink>
-        </a>
-      </li>
+        {/* <a href="https://blog.timiambaye.com">
+          Blog
+        </a> */}
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/itstimiking">

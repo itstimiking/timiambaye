@@ -1,9 +1,16 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import styled,{ keyframes }  from 'styled-components';
+
+const blink = keyframes`
+  to{
+    text-fill-color: lightgray;
+    -webkit-text-fill-color: lightgray;
+  }
+`
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
@@ -11,26 +18,56 @@ export const Container = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
 `;
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
   display: flex;
+  width:220px;
   flex-direction: row;
   align-content: center;
+  align-items:center;
+  overflow:hidden;
+  white-space: nowrap;
+  a{
+    font-size: 2em;
+    font-weight: bold;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-stroke: 1px white;
+    -webkit-text-stroke: 1px white;
+    position:relative;
+    margin-top:5px;
+    transition: text-fill 2s;
+    animation-name: ${blink};
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  };
+  a:hover{
+    text-fill-color: lightgray;
+    -webkit-text-fill-color: lightgray;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
   display: flex;
+  align-items:center;
+  gap:40px;
   margin-top: 0.75em;
   justify-content: space-between;
+  a {
+    color:lightgray;
+    font-size: 1.2em
+  };
+  a:hover{
+    color:white
+  };
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -38,6 +75,7 @@ export const Div2 = styled.div`
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
+  margin-top:10px;
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {

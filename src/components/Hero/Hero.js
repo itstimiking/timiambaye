@@ -9,11 +9,10 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hey There,
+          Front-End Dev
         </SectionTitle>
         <SectionText>
-          Hello!, It's Timi Ambaye. I am a fulls-stack web developer (Django/Flask) (ruby on rails) (React) (Vue), a native android developer (Kotlin), a 
-          cross platform mobile application developer (React Native) . I am a good fit for your new project.
+        I bring a versatile approach to building dynamic and engaging web experiences. Let's collaborate to bring your vision to life.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();

@@ -11,7 +11,7 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
+    // return node.scrollTo({ left, behavior: 'smooth' });
   }
 
   const handleClick = (e, i) => {
@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>My Journey</SectionTitle>
       <SectionText>
-        The journey to become a better developer has not been an easy one, but it has been a really fun ride.
+        The journey to become a better developer has been a really fun ride.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
