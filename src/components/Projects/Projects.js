@@ -15,7 +15,6 @@ const Projects = () => (
             <DivImage>
               <Img src={p.image} />
             </DivImage>
-
             <HeaderThree title={p.title}>{p.title}</HeaderThree>
             <Hr />
 

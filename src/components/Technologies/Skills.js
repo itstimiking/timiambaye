@@ -1,36 +1,67 @@
-import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiRubyonrails, SiFirebase, SiGit } from "react-icons/si";
+
+import { SiDjango, SiRedux, SiNodedotjs, SiNextdotjs, SiVuedotjs, SiNuxtdotjs, SiTypescript, SiGraphql } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>I build native android apps using kotlin and java.</>,
-  },
-  {
-    slug: "react native",
+    slug: "react",
     Component: FaReact,
+    title: "React",
+    Description: () => <>Crafting efficient UI using React Library.</>,
+  },
+  {
+    slug: "next",
+    Component: SiNextdotjs,
+    title: "Next.js",
+    Description: () => <>Fast and secure SSR applications with Next.js.</>,
+  },
+  {
+    slug: "react_native",
+    Component: TbBrandReactNative,
     title: "React Native",
-    Description: () => <>I create fluent and efficient cross platform apps with react native. </>,
+    Description: () => <>I build cross platform mobile apps with react native. </>,
   },
   {
-    slug: "Back-End",
-    Component: SiRubyonrails,
-    title: "Python/Ruby On Rails",
-    Description: () => <>I build backend micro service applications with Ruby on Rails, Djano, Flask and node.js</>,
+    slug: "vue",
+    Component: SiVuedotjs,
+    title: "Vue.js",
+    Description: () => <>Crafting efficient, simple and elegant UI using Vue framework.</>,
   },
   {
-    slug: "firebase",
-    Component: SiFirebase,
-    title: "Firebase",
-    Description: () => <>I have used Firebase for auth, database & analytics in commercial applications and personal projects.</>,
+    slug: "nuxt",
+    Component: SiNuxtdotjs,
+    title: "Nuxt.js",
+    Description: () => <>Efficient and secure SSR UI built with Nuxt.js.</>,
   },
   {
-    slug: "git",
-    Component: SiGit,
-    title: "Git",
-    Description: () => <>I am well versed in git workflow and general version control and collaboration ethics.</>,
+    slug: "django",
+    Component: SiDjango,
+    title: "Django",
+    Description: () => <>Proficient in Python Frameworks like Django and Flask.</>,
+  },
+  {
+    slug: "node",
+    Component: SiNodedotjs,
+    title: "Node.js",
+    Description: () => <>Robust API backends with Node and express.js.</>,
+  },
+  {
+    slug: "Redux",
+    Component: SiRedux,
+    title: "Redux",
+    Description: () => <>Secure client side state management with Redux.</>,
+  },
+  {
+    slug: "GraphQL",
+    Component: SiGraphql,
+    title: "GraphQL",
+    Description: () => <>Complete mastery of graphql data fetching and management.</>,
+  },
+  {
+    slug: "TypeScript",
+    Component: SiTypescript,
+    title: "TypeScript",
+    Description: () => <>Type safe development with TypeScript.</>,
   },
 ];

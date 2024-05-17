@@ -32,7 +32,8 @@ export const TimeLineData = [
   { year: 2016, text: 'Started learning front end web development.', },
   { year: 2017, text: 'Got lost in the hustle and dropped coding for a bit.', },
   { year: 2018, text: 'Came back strong, with a google android scholarship @udacity.', },
-  { year: 2019, text: 'Started Andela Learning Facilitation and mentorship.', },
-  { year: 2020, text: 'Started a freelance web development career.', },
-  { year: 2021, text: 'Zuri Internship, HNG 8, Digitec Hub Business Development Manager.', },
+  { year: 2019, text: 'Mentor and Facilitator Andela (ALC), (GADS).', },
+  { year: 2020, text: 'Web programing tutor Digitec Hub (Frontend, Backend).', },
+  { year: 2021, text: 'Frontend Developer Beamsensations (BSPS)', },
+  { year: 2022, text: 'React native Mobile developer credb.io', },
 ];

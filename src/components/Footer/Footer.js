@@ -15,13 +15,13 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:contact@timiambaye.com">
-            contact@timiambaye.com
+            timiambaye@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>&copy; 2022 <Link href="https://www.timiambaye.com">  Timi Ambaye</Link> . All rights reserved.</Slogan>
+          <Slogan>&copy; 2024 <Link href="https://www.timiambaye.com">  Timi Ambaye</Link> . All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/itstimiking">
@@ -29,12 +29,6 @@ const Footer = () => {
           </SocialIcons>
           <SocialIcons href="https://www.linkedin.com/in/itstimiking/">
             <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/itstimiking">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.twitter.com/timiambaye">
-            <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

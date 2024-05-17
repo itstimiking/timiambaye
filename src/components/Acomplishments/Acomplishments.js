@@ -4,10 +4,10 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: "3+ yrs", text: 'Mentor/Facilitator GADS' },
-  { number: "25", text: 'Frontend Devs Trained', },
-  { number: "50", text: 'Android Devs Trained', },
-  { number: "10+", text: 'Live projects', }
+  { number: "3yrs", text: 'Mentor and Facilitator Andela GADS' },
+  { number: "50", text: 'Devs Trained / Mentored', },
+  { number: "4yrs", text: 'Experience working professionally', },
+  { number: "A", text: 'Always ready to adapt and improve', }
 ];
 
 const Acomplishments = () => (

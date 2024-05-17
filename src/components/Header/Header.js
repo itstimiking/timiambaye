@@ -31,12 +31,6 @@ const Header = () => (
       <SocialIcons href="https://www.linkedin.com/in/itstimiking/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/itstimiking">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.twitter.com/timiambaye">
-        <AiFillTwitterCircle size="3rem" />
-      </SocialIcons>
     </Div3>
   </Container>
 );

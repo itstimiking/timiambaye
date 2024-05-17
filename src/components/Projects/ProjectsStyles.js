@@ -34,10 +34,6 @@ export const Img = styled.img`
   top:0;
   transform: translate(0,0)
   transition: transform 2s;
-
-  :hover{
-    transform: translate(0,-30%)
-  }
 `
 
 export const BlogCard = styled.div`
@@ -55,7 +51,7 @@ export const TitleContent = styled.div`
   width: 100%;
   margin-top: 4rem;
   margin-bottom: 0.7em;
-  color: #9cc9e3;
+  color: white;
   font-size: 1.8rem;
 
 `;
