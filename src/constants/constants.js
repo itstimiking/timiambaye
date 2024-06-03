@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'NaijaShopx',
+    description: "An e-commerce platform where products can be listed by category, add to cart and payment integration.",
+    image: '/images/naijashopx.png',
+    tags: ['Next.js', 'React', 'RadixUI','Rest API'],
+    source: '#',
+    visit: 'https://naijashopx.netlify.app',
+    id: 0,
+  },
+  {
     title: 'Bsps Cars',
     description: "Car listing marketplace. Users can upload car ads, track transaction, view report etc.",
     image: '/images/bspscars.png',
     tags: ['Nuxt.js', 'Vue', 'Redux','Rest API'],
     source: '#',
     visit: 'https://bspscars.netlify.app',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Blood Finder',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['Next.js', 'React', 'Tailwind'],
     source: '#',
     visit: 'https://bloodfinder.netlify.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Thomifab',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['Next.js','React', 'TypeScript','JavaScript'],
     source: '#',
     visit: 'https://thomifabglobal.netlify.app/',
-    id: 2,
+    id: 3,
   },
 ];
 
