@@ -1,12 +1,6 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
 import styled,{ keyframes }  from 'styled-components';
 
-const blink = keyframes`
-  to{
-    text-fill-color: lightgray;
-    -webkit-text-fill-color: lightgray;
-  }
-`
 
 export const Container = styled.div`
   display: grid;
@@ -32,25 +26,13 @@ export const Div1 = styled.div`
   align-items:center;
   overflow:hidden;
   white-space: nowrap;
-  a{
-    font-size: 2em;
-    font-weight: bold;
-    text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
-    text-stroke: 1px white;
-    -webkit-text-stroke: 1px white;
-    position:relative;
-    margin-top:5px;
-    transition: text-fill 2s;
-    animation-name: ${blink};
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  };
-  a:hover{
-    text-fill-color: lightgray;
-    -webkit-text-fill-color: lightgray;
-  }
+  font-weight: 800;
+  font-size: ${(props) => props.main ? '65px' : '56px'};
+  line-height: ${(props) => props.main ? '72px' : '67px'};
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }

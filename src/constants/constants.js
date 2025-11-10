@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: 'Wedding Track',
+    description: "A robust wedding management application where event managers can manage every aspect of a wedding",
+    image: '/images/wedtrak.png',
+    tags: ['Next.js', 'Typescript', 'RadixUI', 'Node.js', 'PostgreSQL'],
+    source: '#',
+    visit: 'https://wedtrak.net',
+    id: 3,
+  },
+  {
+    title: 'Flight Track',
+    description: "An AI powered flight tracking application for business professionals to track flight schedule.",
+    image: '/images/flytrak.png',
+    tags: ['Next.js', 'Typscript', 'RadixUI', 'Supabase API', 'PostgreSQL'],
+    source: '#',
+    visit: 'https://flytrak.net',
+    id: 4,
+  },
+  {
     title: 'NaijaShopx',
     description: "An e-commerce platform where products can be listed by category, add to cart and payment integration.",
     image: '/images/naijashopx.png',
@@ -18,22 +36,13 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Blood Finder',
-    description: "An app that enables medical professionals locate and access blood efficiently and on time ",
-    image: '/images/bloodfinder.png',
-    tags: ['Next.js', 'React', 'Tailwind'],
-    source: '#',
-    visit: 'https://bloodfinder.netlify.app/',
-    id: 2,
-  },
-  {
     title: 'Thomifab',
     description: "Thomifab global resorces a welding and fabrication company official website design",
     image: '/images/thomifab.png',
     tags: ['Next.js','React', 'TypeScript','JavaScript'],
     source: '#',
     visit: 'https://thomifabglobal.netlify.app/',
-    id: 3,
+    id: 2,
   },
 ];
 

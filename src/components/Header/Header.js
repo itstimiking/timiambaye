@@ -7,7 +7,7 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        Timi Ambaye
+        Ambaye
       </Link>
     </Div1>
     <Div2>

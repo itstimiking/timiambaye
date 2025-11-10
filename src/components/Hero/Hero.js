@@ -9,10 +9,10 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Front-End Dev
+          Full-Stack Dev
         </SectionTitle>
         <SectionText>
-        I bring a versatile approach to building dynamic and engaging web experiences. Let's collaborate to bring your vision to life.
+        I bring a versatile approach to building dynamic and engaging software development experiences. Let's collaborate to bring your vision to life.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
